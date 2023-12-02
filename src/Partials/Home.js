@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import myImage from "../resources/myImage11.png";
 // import {box-icon} from "boxicons"
+import {Link} from 'react-router-dom';
 import 'boxicons';
 
 import TextTransition, { presets } from 'react-text-transition';
@@ -35,8 +36,8 @@ const Home = () => {
                     <h4 className="my-3 text-cyan-500">Let's collaborate and create</h4>
                     </p>
                 <div className="btn-box relative flex justify-between w-[34.5rem] h-20">
-                    <a href="/About"> About Me</a>  
-                    <a href="/Contact"> Contact Me</a>
+                    <Link to="/About"> About Me      </Link>  
+                    <Link to="/Contact"> Contact Me  </Link>
                 </div>
             </div>
             {/* <div className="image">

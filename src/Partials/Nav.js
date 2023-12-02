@@ -1,5 +1,5 @@
 // import {boxicons} from 'boxicons'
-
+import {Link} from 'react-router-dom';
 
 const Nav = () => {
 
@@ -16,12 +16,12 @@ return (
         />
         <div>
             <ul className="flex justify-end font-bold">
-                <li><a href="/" className="active">Home</a></li>
-                <li><a href="/About">About</a></li>
-                <li><a href="/Skills">Skills</a></li>
-                <li><a href="/Projects">Projects</a></li>
-                <li><a href="/Blogs">Blogs</a></li>
-                <li><a href="/Contact">Contact</a></li>
+                <li><Link to="/" className="active">Home</Link></li>
+                <li><Link to="/About">About</Link></li>
+                <li><Link to="/Skills">Skills</Link></li>
+                <li><Link to="/Projects">Projects</Link></li>
+                <li><Link to="/Blogs">Blogs</Link></li>
+                <li><Link to="/Contact">Contact</Link></li>
             </ul>
         </div>
     </nav>

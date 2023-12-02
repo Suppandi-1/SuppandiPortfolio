@@ -1,4 +1,5 @@
 import image from "../resources/myImage111.png";
+import {Link} from 'react-router-dom';
 
 
 const About = () => {
@@ -21,7 +22,7 @@ const About = () => {
                     <p><b>Blogger:               </b> Enjoys writing about the things I learn.</p>
                 </p>
                 <div className="inline-block btn-box btns w-60">
-                    <a href="/Projects" className="btn">My Projects</a>
+                    <Link to="/Projects" className="btn">My Projects</Link>
                 </div>
             </div>
            
