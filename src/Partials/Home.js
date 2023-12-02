@@ -45,19 +45,19 @@ const Home = () => {
             </div> */}
             <div className="home-sci absolute bottom-16 w-[300px] flex justify-around">
                 <a 
-                    href="https://discord.gg/PG4qCMc8B9" target="_blank"
+                    href="https://discord.gg/PG4qCMc8B9" 
                     className="relative inline-flex items-center justify-center w-24 h-24  bg-transparent rounded-[50%]"
                     >
                         <box-icon className="" type='logo' name='discord-alt' color="#2C7DA0"></box-icon>
                 </a>
                 <a 
-                    href="ttps://www.linkedin.com/in/devesh-suthar-ab33a9207/" target="_blank"
+                    href="ttps://www.linkedin.com/in/devesh-suthar-ab33a9207/" 
                     className="relative inline-flex items-center justify-center w-24 h-24  bg-transparent rounded-[50%]"
                     >
                          <box-icon className="text-3xl " name='linkedin' color='#2C7DA0' type='logo' ></box-icon>
                 </a>
                 <a 
-                    href="https://www.instagram.com/devesh__s/" target="_blank"
+                    href="https://www.instagram.com/devesh__s/" 
                     className="relative inline-flex items-center justify-center w-24 h-24  bg-transparent rounded-[50%]"
                     >
                         <box-icon name='instagram' type='logo' color='#2C7DA0'  className="text-3xl text-white boxIcon" ></box-icon>
