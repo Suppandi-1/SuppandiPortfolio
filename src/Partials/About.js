@@ -15,9 +15,15 @@ const About = () => {
                     <span className="absolute circle-spin top-1/2 left-1/2 h-4/5 w-full rounded-full"></span>    
                  </div>
 
-                <div className=" my-9 py-0 px-10">
-                    <h3 className="text-2xl p-3">Hi there! I'm Devesh, a developer and tech enthusiast pursuing bachelors of Tech In Electrical from Guwahati, India. With a focus on innovation and excellence, I thrive on crafting dynamic web experiences and cutting-edge applications.</h3>
-                    <h3 className="text-2xl p-3"> My journey in technology started with a fascination for problem-solving and a desire to create impactful solutions. Over the years, I've honed my skills in web development using React.js and Node.js, as well as mobile app development with Kotlin and Jetpack Compose. My academic pursuits at IIT Guwahati have further solidified my foundation in these areas.
+                <div className=" mx-0 py-0 px-10 ">
+                    <h3 className="text-2xl p-3 py-0"></h3>
+                    <h3 className="text-2xl p-3 py-0"> 
+                    <b>My journey</b> 
+                    <p className="color-palette2 p-1 text-2xl">began with learning C from book "Let Us C" .</p>
+                    <p className="color-palette2 p-1 text-2xl">I explored web development and C++ through open-source resources, documentation, online resources like W3Schools, YT channels, cplusplus.com. </p>
+                    <p className="color-palette2 p-1 text-2xl">In my second year of Graduation, I moved on to Android development with a Udemy course by Denis.</p>
+                    <p className="color-palette2 p-1 text-2xl">I then mastered automation with Selenium in Node.js, guided by self-learning and GPT-4.</p>
+                    <p className="color-palette2 p-1 text-2xl">I honed my crafting and CAD-modelling skills and participated in RC-aeromodelling competitions with the Aeromodelling Club at IIT Guwahati.</p>
                     </h3>
                 
                     <div className=" ">
@@ -31,16 +37,16 @@ const About = () => {
             </section>
 
             <section className="  pt-24 ">
-                <div className=" pt-8 h-full">
+                <div className=" h-full p-8 ">
 
                     <h1 className="text-3xl  text-cyan-400 font-extrabold text-center"> Skills </h1>
-                    <div className="m-4 p-1 h-full flex flex-col justify-between h-full">
+                    <div className="  flex flex-col justify-between h-full">
                         <div className="m-2 p-2 text-xl "><h1 className ="m-2 p-0  color-palette3 font-bold text-2xl">Web Development:    </h1><p className ="m-2 p-2  color-palette2 ">Proficient in React.js and Node.js, creating responsive and efficient web applications.</p></div>
                         <div className="m-2 p-2 text-xl "><h1 className ="m-2 p-0  color-palette3 font-bold text-2xl">App Development:    </h1><p className ="m-2 p-2  color-palette2 ">Skilled in Kotlin and Jetpack Compose, delivering high-quality Android applications.</p></div>
                         <div className="m-2 p-2 text-xl "><h1 className ="m-2 p-0  color-palette3 font-bold text-2xl">Aeromodelling:      </h1><p className ="m-2 p-2  color-palette2 ">Experienced in designing and developing advanced aeromodelling projects.</p></div>
                         <div className="m-2 p-2 text-xl "><h1 className ="m-2 p-0  color-palette3 font-bold text-2xl">Automation:         </h1><p className ="m-2 p-2  color-palette2 ">Developed Selenium bots using Node.js to automate tasks on platforms like Pinterest and Instagram.</p></div>
                         <div className="m-2 p-2 text-xl "><h1 className ="m-2 p-0  color-palette3 font-bold text-2xl">CAD Modeling:       </h1><p className ="m-2 p-2  color-palette2 ">Proficient in Fusion 360 for creating detailed and precise CAD models, particularly in aeromodelling.</p></div>
-                        <div className="m-2 p-2 text-xl "><h1 className ="m-2 p-0  color-palette3 font-bold text-2xl">                    </h1><p className ="m-2 p-2  color-palette2 "></p></div>
+                        {/* <div className="m-2 p-2 text-xl "><h1 className ="m-2 p-0  color-palette3 font-bold text-2xl">                    </h1><p className ="m-2 p-2  color-palette2 "></p></div> */}
                     </div>
 
                 </div>

@@ -26,6 +26,9 @@ font-family: 'Nova Square', sans-serif;
 .color-neone{ color: var(--neone);}
 .color-palette2{ color: var(--Palette14);}
 .color-palette3{ color: var(--Palette6);}
+.bg-palette2{ background-color: var(--Palette14);}
+.bg-palette3{ background-color: var(--Palette6);}
+
 html{
     font-size: 90%;
     overflow-x: hidden;
@@ -95,7 +98,13 @@ body {
 .Nav>div>ul>li>a.active{
     color: var(--Palette5);
 }
-
+.form-group{
+    /* border: 2px solid yellow ; */
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    
+}
 /* home css  */
 .webkit-t-s{-webkit-text-stroke: 3px var(--neone);}
 .home-content .text-animate h2{

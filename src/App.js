@@ -3,6 +3,7 @@ import Nav from "./Partials/Nav";
 import { BrowserRouter as Router ,Route, Switch } from 'react-router-dom'
 import About from "./Partials/About";
 import Skills from "./Partials/Skills";
+import Contacts from './Partials/Contact';
 import UnderConstruction from "./Partials/UnderConstruction";
 import Footer from "./Partials/Footer";
 // import Tests from "./Partials/Tests.tsx";
@@ -29,7 +30,7 @@ function App() {
           <UnderConstruction/>
         </Route>
         <Route path="/Contact">
-          <UnderConstruction/>
+          <Contacts/>
         </Route>
         <Route path="/Blogs">
           <UnderConstruction/>
