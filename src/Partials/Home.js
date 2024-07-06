@@ -21,7 +21,7 @@ const Home = () => {
 
     return ( 
         <div className=" flex  h-full w-full items-center  ">
-            <div className=" w-3/5 h-full  flex justify-between items-center flex-col ">
+            <div className=" w-3/5 h-full  flex justify-center items-center flex-col ">
                 {/* contentpart */} 
                     <div className=" home-content mt-40 m-16 ">
                         <h1 className="  font-bold text-8xl ">
@@ -32,12 +32,13 @@ const Home = () => {
                                 <TextTransition springConfig={presets.wobbly}>{TEXTS[index % TEXTS.length]}</TextTransition>
                             </h2>
                         </div>
-                        <p className="   text-2xl ">
+                        <p className="   text-3xl ">
                             <h4 className=" my-5 font-bold text-cyan-200">Code your dreams. Fly your ideas.</h4>
-                            <h4 className="text-cyan-300  ">I specialize in crafting dynamic web experiences with &nbsp;
-                                <b className="font-bold find color-neone">React.js</b> and&nbsp;
-                                <b className="font-bold find color-neone">Node.js</b>, alongside creating cutting-edge Android applications using&nbsp;
-                                <b className="font-bold find color-neone">Kotlin Jetpack Compose</b>.
+                            <h4 className="text-cyan-300  ">I specialize in building dynamic web experiences with &nbsp;
+                                <b className="font-bold find color-neone">React_js</b> and&nbsp;
+                                <b className="font-bold find color-neone">Node_js</b>,  creating Android applications using&nbsp;
+                                <b className="font-bold find color-neone">Kotlin_Jetpack_Compose</b> and alongside crafting RC-plane by first desining a 
+                                <b className="font-bold find color-neone"> CAD_model.</b>
                             </h4>
                             <h4 className="my-3 text-cyan-500"></h4>
                         </p>
