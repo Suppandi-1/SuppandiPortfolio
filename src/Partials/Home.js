@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
-import myImage from "../resources/myImage11.png";
+import myImage from "../Assets/myImg4.4.png";
 // import {box-icon} from "boxicons"
 import {Link} from 'react-router-dom';
 import 'boxicons';
 
 import TextTransition, { presets } from 'react-text-transition';
 
-const TEXTS = ['FrontEnd Developer', 'BackEnd Developer ', 'Android Developer', 'Blogger'];
+const TEXTS = ['FrontEnd Developer', 'BackEnd Developer ', 'Android Developer', 'Blogger' , 'Aero-Crafter'];
 
 const Home = () => {
     const [index, setIndex] = useState(0);
@@ -20,56 +20,58 @@ const Home = () => {
       }, []);
 
     return ( 
-        <div className="flex home min-h-[100vh] items-center py-o px-[9%]">
-            <div className="max-w-5xl home-content ">
-                <h1 className="font-bold text-8xl ">
-                    Hi, I am <span className="font-bold text-cyan-900">Suppandi</span>
-                </h1>
-                <div className="relative text-animate w-lg">
-                    <h2 className="my-5 text-5xl font-bold text-transparent" >
-                        <TextTransition springConfig={presets.wobbly}>{TEXTS[index % TEXTS.length]}</TextTransition>
-                    </h2>
+        <div className=" flex  h-full w-full items-center  ">
+            <div className=" w-3/5 h-full  flex justify-between items-center flex-col ">
+                {/* contentpart */} 
+                    <div className=" home-content mt-40 m-16 ">
+                        <h1 className="  font-bold text-8xl ">
+                            Hi, I am <span className="font-bold  text-transparent webkit-t-s">Devesh</span>
+                        </h1>
+                        <div className="relative text-animate w-lg">
+                            <h2 className="my-5 text-5xl font-bold text-transparent" >
+                                <TextTransition springConfig={presets.wobbly}>{TEXTS[index % TEXTS.length]}</TextTransition>
+                            </h2>
+                        </div>
+                        <p className="   text-2xl ">
+                            <h4 className=" my-5 font-bold text-cyan-200">Code your dreams. Fly your ideas.</h4>
+                            <h4 className="text-cyan-300  ">I specialize in crafting dynamic web experiences with &nbsp;
+                                <b className="font-bold find color-neone">React.js</b> and&nbsp;
+                                <b className="font-bold find color-neone">Node.js</b>, alongside creating cutting-edge Android applications using&nbsp;
+                                <b className="font-bold find color-neone">Kotlin Jetpack Compose</b>.
+                            </h4>
+                            <h4 className="my-3 text-cyan-500"></h4>
+                        </p>
+                        {/* the two buttons  */}
+                        <div className=" w-3/5  relative flex justify-between w-[34.5rem] h-20">
+                            <Link to="/About"   className="btn-box relative inline-flex justify-center items-center rounded-2xl text-3xl w-60 bg-cyan-600 font-extrabold z-10"> About Me      </Link>  
+                            <Link to="/Contact" className="btn-box relative inline-flex justify-center items-center rounded-2xl text-3xl w-60 bg-cyan-600 font-extrabold z-10"> Contact Me  </Link>
+                        </div>
+                    </div>
+                    {/* contact-links */}
+                    <div className="flex  w-full justify-center items-center ">
+                        <div className="flex  w-auto h-full mb-2">
+                            <a href="https://discord.gg/PG4qCMc8B9"                         target="_blank"  className="border_neone p-2 m-2 inline-flex items-center justify-center w-24 h-24 bg-transparent rounded-full border-8 b hover:bg-white transition duration-1000 ease-in-out hover:border-red-600">
+                                <box-icon className="" type='logo' name='discord-alt' color="#2C7DA0"></box-icon></a>
+                            <a href="ttps://www.linkedin.com/in/devesh-suthar-ab33a9207/"   target="_blank"  className="border_neone p-2 m-2 inline-flex items-center justify-center w-24 h-24 bg-transparent rounded-full border-8 b hover:bg-white transition duration-1000 ease-in-out hover:border-red-600">
+                                <box-icon className="" type="logo" name='linkedin'    color='#2C7DA0' type='logo' ></box-icon></a>
+                            <a href="https://www.instagram.com/devesh__s/"                  target="_blank"  className="border_neone p-2 m-2 inline-flex items-center justify-center w-24 h-24 bg-transparent rounded-full border-8 b hover:bg-white transition duration-1000 ease-in-out hover:border-red-600">
+                                <box-icon className="" type='logo' name='instagram'   color='#2C7DA0'  className="text-3xl text-white boxIcon" ></box-icon></a>
+                        </div>
+                    </div>
+
+
+            </div>
+
+            <div className="w-2/5 h-full flex justify-end items-end ">
+                 {/* imagepart */}
+                <div className="  w-4/6 ">
+                    <div className="">
+                        <img src={myImage} alt="" className=" h-full w-full opacity-80 imagehover"/>
+                    </div>
                 </div>
-                <p className="text-2xl ">
-                    <h4 className="my-5 font-bold text-cyan-200">FrontEnd finesse, BackEnd brilliance, and a dash of  Android Expertise</h4>
-                    <h4 className="my-2 text-cyan-300">Web development, Android programming, Electrical Engineering , An avid gamer and anime aficionado</h4>
-                    <h4 className="my-3 text-cyan-500">Let's collaborate and create</h4>
-                    </p>
-                <div className="btn-box relative flex justify-between w-[34.5rem] h-20">
-                    <Link to="/About"> About Me      </Link>  
-                    <Link to="/Contact"> Contact Me  </Link>
-                </div>
             </div>
-            {/* <div className="image">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet alias, odio necessitatibus ipsam, accusantium quae cum sit tenetur fugiat voluptatibus dignissimos quo obcaecati earum corrupti nisi nostrum eveniet. Eius ad quod veniam vel molestiae ducimus perferendis laborum fugiat reprehenderit ab.</p>
-                <img src="../../resources/1.jpeg" alt="" />
-            </div> */}
-            <div className="home-sci absolute bottom-16 w-[300px] flex justify-around">
-                <a 
-                    href="https://discord.gg/PG4qCMc8B9" 
-                    className="relative inline-flex items-center justify-center w-24 h-24  bg-transparent rounded-[50%]"
-                    >
-                        <box-icon className="" type='logo' name='discord-alt' color="#2C7DA0"></box-icon>
-                </a>
-                <a 
-                    href="ttps://www.linkedin.com/in/devesh-suthar-ab33a9207/" 
-                    className="relative inline-flex items-center justify-center w-24 h-24  bg-transparent rounded-[50%]"
-                    >
-                         <box-icon className="text-3xl " name='linkedin' color='#2C7DA0' type='logo' ></box-icon>
-                </a>
-                <a 
-                    href="https://www.instagram.com/devesh__s/" 
-                    className="relative inline-flex items-center justify-center w-24 h-24  bg-transparent rounded-[50%]"
-                    >
-                        <box-icon name='instagram' type='logo' color='#2C7DA0'  className="text-3xl text-white boxIcon" ></box-icon>
-                </a>
-               
-            </div>
-            <div className="image">
-                    <img src={myImage} alt=""/>
-                  
-                
-            </div>
+            
+            
         </div>
      ); 
 }

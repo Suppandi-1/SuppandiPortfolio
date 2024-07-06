@@ -1,11 +1,11 @@
 import 'boxicons';
 const UnderConstruction = () => {
     return ( 
-        <div className="flex items-center justify-center text-xl UnderConstruciton">
-            <box-icon name='hard-hat' className="w-12 h-12 text-5xl"></box-icon>
-            
+        <div className=" mt-60 flex items-center justify-center text-xl UnderConstruciton">
+            <box-icon name='hard-hat'  size='60px' animation='burst' ></box-icon>
+
             {/* <i class='bx bx-hard-hat'> */}
-             <h2 className="text-6xl m-36">Site Under <span className=" text-cyan-400">Construction</span></h2>
+             <h2 className="text-6xl m-20">Site Under <span className=" text-cyan-400">Construction</span></h2>
                 
             {/* </i>/<FontAwesomeIcon icon={faConstruction} size="lg" /> */}
         </div>
@@ -13,3 +13,5 @@ const UnderConstruction = () => {
 }
  
 export default UnderConstruction;
+{/* <box-icon name='hard-hat' type='solid' rotate='90' ></box-icon> */}
+{/* <box-icon name='hard-hat'  ></box-icon> */}
