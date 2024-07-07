@@ -13,7 +13,7 @@ function App() {
   return (
 
     <Router>
-      <div className="App border_neone2 flex  h-screen w-screen items-center flex-col">
+      <div className="App border-solid border-[.25rem] md:border-[.3rem] border-[#39ff14] flex  h-screen w-screen items-center flex-col">
       <Nav/>
       <Switch>
         <Route exact path="/"> 
