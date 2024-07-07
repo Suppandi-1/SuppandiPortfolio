@@ -6,7 +6,7 @@ const Contact = () => {
     return ( 
         <div className="w-full h-full flex justify-around">
             {/* sec1 */}
-            <section className=' h-auto w-3/5 mt-32  flex flex-col  justify-around'>
+            <section className='findb h-auto w-3/5 mt-32  flex flex-col  justify-around'>
             <h1 className="  text-5xl  text-cyan-400 font-extrabold text-center  "> Message <b className="text-cyan-100"> Me </b> </h1>
             <div className="  h-5/6  flex justify-around  items-center flex-col mb-10">
             <form class="  border-4 w-fit p-4  h-fit border-solid border-[cyan]  rounded-xl contact-form flex flex-col items-center justify-around ">
