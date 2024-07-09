@@ -6,7 +6,8 @@ function Footer() {
        text-xs md:text-sm 
        absolute bottom-0 m-0 lg:m-1
        justify-center md:justify-normal md:right-0
-       h-fit w-fit">
+       h-fit w-fit
+       px-2">
         
         <div class="footer-copy  p-0 md:p-1 flex ">
             <p className="p-0">

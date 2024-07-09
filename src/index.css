@@ -55,8 +55,8 @@ html{
 body {
     background: linear-gradient(135deg, 
         var(--Palette12) 0%, 
-        var(--Palette1) 16%, 
-        var(--Palette11) 40%, 
+        var(--Palette1) 30%, 
+        var(--Palette11) 50%, 
         var(--Palette0) 55%, 
         var(--palette01) 70%, 
         black 100%);
@@ -118,11 +118,15 @@ body {
 }
 
 .btn-box {
-    border: .25 rem solid var(--Palette13);
+    /* border: .25 rem solid var(--Palette13); */
+    border: 2px solid cyan;
+    color: cyan;
     z-index: 1;
     overflow: hidden;
 }
-
+.btn-box:hover{
+    color: var(--Palette0);
+}
 
 .btn-box::before{
     content: '';
@@ -138,6 +142,7 @@ body {
 
 .btn-box:hover::before{
     width: 100%;
+    color: var(--Palette11);
 }
 .home-sci a{
     border: 2px solid var(--Palette13);
