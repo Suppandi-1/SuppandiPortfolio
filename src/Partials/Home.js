@@ -60,11 +60,11 @@ const Home = () => {
 
             </div>
 
-            <div className=" absolute  right-0 h-full flex justify-end items-end w-[300] sm:w-[500] lg:w-[600px] -z-10">
+            <div className=" absolute  right-0 h-full flex justify-end items-end w-full  sm:w-[500px] lg:w-[600px] -z-10">
                  {/* imagepart */}
-                <div className="  w-full ">
+                <div className="  w-full  ">
                     <div className="  ">
-                        <img src={myImage} alt="" className=" h-full w-full opacity-60 md:opacity-80 imagehover "/>
+                        <img src={myImage} alt="" className=" h-full w-full opacity-60 md:opacity-80  "/>
                     </div>
                 </div>
             </div>

@@ -6,7 +6,7 @@ import Skills from "./Partials/Skills";
 import Contacts from './Partials/Contact';
 import UnderConstruction from "./Partials/UnderConstruction";
 import Footer from "./Partials/Footer";
-// import Tests from "./Partials/Tests.tsx";
+import Blogs from "./Partials/Blogs";
 
 
 function App() {
@@ -33,7 +33,7 @@ function App() {
           <Contacts/>
         </Route>
         <Route path="/Blogs">
-          <UnderConstruction/>
+          <Blogs/>
         </Route>
         
 
