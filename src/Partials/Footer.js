@@ -1,17 +1,21 @@
+import 'boxicons';
 function Footer() {
   return (
-      <footer className=" text-xs md:text-sm absolute bottom-0  m-1  justify-center md:right-0">
-        <div class="footer-container flex justify-center items-center flex-row">
-        <div class="footer-social ">
-            <a className="p-1" target="_blank" href="mailto:suthar.d@outlook.com">Email</a>
-            {/* <a className="p-2" target="_blank" href="https://www.linkedin.com/in/devesh-suthar-/" target="_blank">LinkedIn</a> */}
-            {/* <a className="p-2" target="_blank" href="https://x.com/DeveshDaku" target="_blank">Twitter</a> */}
-            {/* <a className="p-2" target="_blank" href="https://www.instagram.com/devesh__s/" target="_blank">Instagram</a> */}
-            {/* <a className="p-2" target="_blank" href="https://github.com/Devesh-Daku" target="_blank">GitHub</a> */}
-        </div>
-        <div class="footer-copy p-1">
-            <p> <b className= "text-xl ">©</b> 2024 Devesh Kumar Suthar. All Rights Reserved.</p>
-        </div>
+      <footer className="bg-black bg-opacity-40 md:bg-opacity-0
+       border-2 border-solid border-[#39ff14] md:border-none 
+       text-xs md:text-sm 
+       absolute bottom-0 m-0 lg:m-1
+       justify-center md:justify-normal md:right-0
+       h-fit w-fit">
+        
+        <div class="footer-copy  p-0 md:p-1 flex ">
+            <p className="p-0">
+
+            <a className=" p-0 md:p-1 " target="_blank" href="mailto:suthar.d@outlook.com">Email </a>
+            <a href="https://github.com/devesh-daku">
+            <box-icon name='copyright' color='white' size='.75rem'></box-icon> 2024 Devesh Kumar Suthar. All Rights Reserved.
+            </a>
+            </p>
         </div>
     </footer>
 
