@@ -20,11 +20,11 @@ const Home = () => {
       }, []);
 
     return ( 
-        <div className=" flex  h-full w-full items-center justify-between ">
+        <div className="  flex  h-full w-full items-center justify-between  ">
             <div className=" w-full sm:w-4/5 h-full  flex justify-center items-center flex-col ">
                 {/* contentpart */} 
                     <div className="   mt-16 sm:mt-40 mx-4 md:m-10 lg:m-16 ">
-                        <h1 className="  font-bold text-5xl sm:text-6xl md:text-7xl lg:text-8xl ">
+                        <h1 className="  font-bold text-5xl sm:text-6xl md:text-7xl  lg:text-8xl ">
                             Hi, I am <span className="font-bold  text-transparent webkit-t-s">Devesh</span>
                         </h1>
                         <div className="relative text-animate w-lg">
@@ -63,8 +63,8 @@ const Home = () => {
             <div className=" absolute  right-0 h-full flex justify-end items-end w-[300] sm:w-[500] lg:w-[600px] -z-10">
                  {/* imagepart */}
                 <div className="  w-full ">
-                    <div className="">
-                        <img src={myImage} alt="" className=" h-full w-full opacity-60 md:opacity-80 imagehover"/>
+                    <div className="  ">
+                        <img src={myImage} alt="" className=" h-full w-full opacity-60 md:opacity-80 imagehover "/>
                     </div>
                 </div>
             </div>
