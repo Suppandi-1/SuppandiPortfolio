@@ -1,8 +1,8 @@
 import 'boxicons';
 function Footer() {
   return (
-      <footer className="bg-black bg-opacity-40 md:bg-opacity-0
-       border-2 border-solid border-[#39ff14] md:border-none 
+      <footer className=" bg-opacity-40 md:bg-opacity-0
+      text-p1 md:border-none 
        text-xs md:text-sm 
        absolute bottom-0 m-0 lg:m-1
        justify-center md:justify-normal md:right-0

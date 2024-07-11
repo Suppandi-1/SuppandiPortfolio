@@ -1,0 +1,121 @@
+{
+    "Blogs": {
+        "References": [
+            {
+                "H": "Git command lines",
+                "D": "Reference for Git-command-line codes",
+                "L": "google.com"
+            },
+            {
+                "H": "Let Us C",
+                "D": "A brief C reference of important chapters from Let Us C book",
+                "L": "google.com"
+            },
+            {
+                "H": "Java Script",
+                "D": "Reference for some important function of Vanilla JS",
+                "L": "https://suppandivbano.blogspot.com/2023/06/revising-js.html"
+            },
+            {
+                "H": "CPlusPlus",
+                "D": "Cpp basic reference.",
+                "L": "https://suppandicppnotes.blogspot.com/2023/12/cbasics.html"
+            }
+        ],
+        "AndroidDev": [
+            {
+                "H":"Kotlin Basics",
+                "D":"Fundamentals of kotlin programming language",
+                "L":"https://deveshdevfuse.blogspot.com/2023/09/kotlin-basics.html"
+            },
+            {
+                "H":"Advanced Fundamentals of Kotlin",
+                "D":"More fundamental of kotlin programming language",
+                "L":"https://deveshdevfuse.blogspot.com/2023/09/more-fundamentals-in-kotline.html"
+            },
+            {
+                "H": "Object Oriented Programming in Kotlin",
+                "D": "Notable points reference of OOPs in Kotlin for android development",
+                "L": "https://deveshdevfuse.blogspot.com/2023/09/oop-in-kotlin.html"
+            },
+            {
+                "H":"Permission To Android App",
+                "D":"Demo for giving asking permission from android app in AppDev",
+                "L":"https://deveshdevfuse.blogspot.com/2023/10/how-to-get-give-permission-to-app.html"
+            },
+            {
+                "H":"Intent Bind in Android Dev",
+                "D":"Binding between multiple activities while developing a android app.",
+                "L":"https://deveshdevfuse.blogspot.com/2023/10/the-binding-approach.html"
+            },
+            {
+                "H":"SnackBar and Alert in AppDev",
+                "D":"adding SnackBar , AlertDialog and Custom Dialog in  android app.",
+                "L":"https://deveshdevfuse.blogspot.com/2023/10/how-to-add-snackbar-in-android-app.html"
+            },
+            {
+                "H":"Intent Bind in Android Dev",
+                "D":"Binding between multiple activities while developing a android app.",
+                "L":"https://deveshdevfuse.blogspot.com/2023/10/the-binding-approach.html"
+            }
+        ]
+    },
+    "Links":{
+        "Social":[
+            {
+                "N":"Github",
+                "L":"https://github.com/devesh-daku"
+            },
+            {
+                "N":"Instagram",
+                "L":"https://instagram.com/devesh__s"
+            },
+            {
+                "N":"LinkedIn",
+                "L":"https://www.linkedin.com/in/devesh-suthar-/"
+            },
+            {
+                "N":"Twitter",
+                "L":"https://x.com/DeveshDaku"
+            },
+            {
+                "N":"Email",
+                "L":"mailto:suthar.d@outlook.com"
+            }
+        ],
+        "Competitive":[
+            {
+                "N":"Codeforce",
+                "L":"https://codeforces.com/profile/Suppandi"
+            },
+            {
+                "N":"CodeChef",
+                "L":"#"
+            },
+            {
+                "N":"AtCoder",
+                "L":"#"
+            },
+            {
+                "N":"HackerRank",
+                "L":"#"
+            },
+            {
+                "N":"LeetCode",
+                "L":"#"
+            }
+
+        ],
+        "Other":[
+            {
+                "N":"Spotify",
+                "L":"#"
+            },
+            {
+                "N":"Reddit",
+                "L":"#"
+            }
+
+        ]
+    }
+}
