@@ -4,12 +4,12 @@
             {
                 "H": "Git command lines",
                 "D": "Reference for Git-command-line codes",
-                "L": "google.com"
+                "L": "https://suppandivbano.blogspot.com/2022/12/git-codes.html"
             },
             {
                 "H": "Let Us C",
                 "D": "A brief C reference of important chapters from Let Us C book",
-                "L": "google.com"
+                "L": "https://suppandivbano.blogspot.com/2022/11/notes-from-let-me-c.html"
             },
             {
                 "H": "Java Script",
@@ -117,5 +117,49 @@
             }
 
         ]
-    }
+    },
+    "Projects":[
+        {
+            "H" : "Inter IIT-12.0 Trumio",
+            "P" : "Inter IIT ps based on ai usage and user-managment, includes Desining, Web-Development, Android-Development",
+            "D" : "Oct 2023 - Dec 2023",
+            "I" : "./projectImgs/Trumio.png",
+            "R" : "https://github.com/botketan/Trumio",
+            "S" : "5:4"
+            
+        },
+        {
+            "H" : "Aero-Managment Website",
+            "P" : "Airline managment and ticket booking website.",
+            "D" : "May 2024 - june. 2024",
+            "I" : "./projectImgs/AeroManagment.png",
+            "R" : "https://github.com/AnuragTheCoder/Aero-management",
+            "S" : "5:4"
+        },
+        {
+            "H" : "PIN-Bot Automation Script",
+            "P" : "An automation script tasks of Pinterest and instagram. This script downloads a perticular pin from Pinterest and then posting to instagram by generation caption from geminiAi",
+            "D" : "june. 2024",
+            "I" : "./projectImgs/seleniumBot.png",
+            "R" : "https://github.com/devesh-daku/",
+            "S" : "5:4"
+        },
+        {
+            "H" : "Weather App",
+            "P" : "An Api based weather detection app from open source api ",
+            "D" : "OCT. 2023",
+            "I" : "./projectImgs/weatherApp.png",
+            "R" : "https://github.com/devesh-daku/WeatherApp",
+            "S" : "5:4"
+        },
+        {
+            "H" : "Trello User-managment",
+            "P" : "A user and project management app for work distribution, With data server base on firbase ",
+            "D" : "june. 2024",
+            "I" : "./projectImgs/Trello-Clone.png",
+            "R" : "https://github.com/devesh-daku/Trello-Clone",
+            "S" : "5:4"
+        }
+        
+    ]
 }

@@ -1,9 +1,14 @@
 import {boxicons} from 'boxicons'
 import React, { useState } from 'react';
 import {Link} from 'react-router-dom';
-
 const Nav = () => {
-    let screenConditionSmall = (window.innerWidth < 640)
+    const neone = '#39ff14';
+    const p2    = '#E07A5F';
+    const p1    = '#F4F1DE';
+    const p3    = '#3D405B';
+    const p4    = '#81B29A';
+    const p5    = '#F2CC8F';
+    let screenConditionSmall = (window.innerWidth < 1024)
     const [showNavbar, setShowNavbar] = useState( screenConditionSmall);
     const toggleNavbar = () => {
         setShowNavbar(!showNavbar);
@@ -20,12 +25,12 @@ return (
             <h1 href="/" className='text-5xl md:text-6xl pl-4 tilt-prism text-p2'>
                 Portfoli
                 <div className="inline-block" onClick={toggleNavbar}>
-                {!showNavbar && <div className="inline-block w-12 h-12  border-4 border-solid border-p2 rounded-full flex justify-center items-center  " > <box-icon  name='joystick-button' color="#F2CC8F" size="2rem" ></box-icon> </div> }
-                {showNavbar &&  <div className="inline-block w-12 h-12  border-4 border-solid border-p2 rounded-full flex justify-center items-center  " > <box-icon  name='joystick-button' type='solid' color="#F2CC8F" size="2rem" ></box-icon></div>
+                {!showNavbar && <div className="inline-block w-12 h-12  border-4 border-solid border-p2 rounded-full flex justify-center items-center  " > <box-icon  name='joystick-button' color={p4} size="2rem" ></box-icon> </div> }
+                {showNavbar &&  <div className="inline-block w-12 h-12  border-4 border-solid border-p2 rounded-full flex justify-center items-center  " > <box-icon  name='joystick-button' type='solid' color={p2} size="2rem" ></box-icon></div>
                 }
                 </div>
             </h1>
-            <h2 className="tilt-prism italic text-3xl md:text-4xl tracking-wider text-p5">Devesh suthar</h2>
+            <h2 className="tilt-prism italic text-3xl md:text-4xl tracking-wider text-p4">Devesh suthar</h2>
             </h3>
         </div>
        <div className=' w-full flex  items-center justify-center m-auto  my-3 lg:w-3/5 text-shadow '>

@@ -7,13 +7,14 @@ import Contacts from './Partials/Contact';
 import UnderConstruction from "./Partials/UnderConstruction";
 import Footer from "./Partials/Footer";
 import Blogs from "./Partials/Blogs";
+import Projects from "./Partials/Projects";
 
 
 function App() {
   return (
 
     <Router>
-      <div className="App border-solid border-[.25rem] md:border-[.3rem] border-[#39ff14] flex  h-screen w-screen items-center flex-col">
+      <div className="App border-solid border-[.25rem] md:border-[.3rem] border-p4 flex  h-screen w-screen items-center flex-col">
       <Nav/>
       <Switch>
         <Route exact path="/"> 
@@ -26,8 +27,7 @@ function App() {
           <UnderConstruction/>
         </Route>
         <Route path="/Projects">
-          
-          <UnderConstruction/>
+          <Projects/>
         </Route>
         <Route path="/Contact">
           <Contacts/>
