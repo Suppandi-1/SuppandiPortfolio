@@ -9,7 +9,7 @@ const BlogsData = () => {
         <div className=" text-p1 nova-square  h-5/6  flex   md:flex-row  flex-wrap overflow-auto " >
             {blogs.map((category,index) => (
                 <div key={index} className=" md:h-auto p-10  flex flex-col ">
-                    <h2 className="text-2xl md:text-3xl text-p5  ">{category}</h2>
+                    <h2 className="text-2xl md:text-3xl text-p2  ">{category}</h2>
                     <div className=" " style={{   overflow:'scroll' }}>
                         {Data.Blogs[category].map((post,idx)=>(
                             <a  key={idx}

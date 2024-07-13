@@ -1,16 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.2bca105b.css",
-    "main.js": "/static/js/main.38809a49.js",
+    "main.css": "/static/css/main.06ea5457.css",
+    "main.js": "/static/js/main.55abaaad.js",
+    "static/media/bg2.png": "/static/media/bg2.a604c4995a1477f2e501.png",
     "static/media/setup1.png": "/static/media/setup1.091d0f420715a5d31207.png",
+    "static/media/AeroManagment.png": "/static/media/AeroManagment.24e2d0378af6b42baaba.png",
+    "static/media/seleniumBot.png": "/static/media/seleniumBot.02c98e463d00b350aa77.png",
     "static/media/myImg.png": "/static/media/myImg.bfa44b909cf672a8e427.png",
     "static/media/myImg4.4.png": "/static/media/myImg4.4.b82e1542ffe8a7e2d42b.png",
+    "static/media/Trumio.png": "/static/media/Trumio.296f40e30204b7de4ed5.png",
+    "static/media/weatherApp.png": "/static/media/weatherApp.cb4c49daa5f87b85a51a.png",
+    "static/media/Trello-Clone.png": "/static/media/Trello-Clone.1b685f653e771c4cbcb5.png",
+    "static/media/AndroidApp1.png": "/static/media/AndroidApp1.1cc24b8c1bae0c69ab91.png",
     "index.html": "/index.html",
-    "main.2bca105b.css.map": "/static/css/main.2bca105b.css.map",
-    "main.38809a49.js.map": "/static/js/main.38809a49.js.map"
+    "main.06ea5457.css.map": "/static/css/main.06ea5457.css.map",
+    "main.55abaaad.js.map": "/static/js/main.55abaaad.js.map"
   },
   "entrypoints": [
-    "static/css/main.2bca105b.css",
-    "static/js/main.38809a49.js"
+    "static/css/main.06ea5457.css",
+    "static/js/main.55abaaad.js"
   ]
 }
